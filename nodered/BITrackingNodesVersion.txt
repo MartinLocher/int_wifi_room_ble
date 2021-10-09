@@ -1,0 +1,794 @@
+[
+    {
+        "id": "38a4b0ae.70237",
+        "type": "tab",
+        "label": "BI TrackingNodes Version",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cc05d263.acca2",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "30:AE:A4:FF:52:38",
+        "topic": "30:AE:A4:FF:52:38/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "d07af93b.adc0a8"
+            ]
+        ]
+    },
+    {
+        "id": "46ad9898.1ea368",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "D8:A0:1D:62:91:5C",
+        "topic": "D8:A0:1D:62:91:5C/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "31d547b3.c3bb08"
+            ]
+        ]
+    },
+    {
+        "id": "513e5fb7.db61a",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4C:EC",
+        "topic": "3C:71:BF:03:4C:EC/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "5272bdb4.d64154"
+            ]
+        ]
+    },
+    {
+        "id": "6d3e40f5.edd9d",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4D:A4",
+        "topic": "3C:71:BF:03:4D:A4/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "ef27307a.ef866"
+            ]
+        ]
+    },
+    {
+        "id": "a974c514.724bd8",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4D:80",
+        "topic": "3C:71:BF:03:4D:80/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "52f8c07c.77f2a"
+            ]
+        ]
+    },
+    {
+        "id": "d4119967.0d0518",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4D:5C",
+        "topic": "3C:71:BF:03:4D:5C/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "379aab15.527124"
+            ]
+        ]
+    },
+    {
+        "id": "be0c8787.15be58",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4E:44",
+        "topic": "3C:71:BF:03:4E:44/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "63f1480d.c23268"
+            ]
+        ]
+    },
+    {
+        "id": "a5b6f1b0.aea44",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4D:94",
+        "topic": "3C:71:BF:03:4D:94/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 620,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "3b2987a7.13d198"
+            ]
+        ]
+    },
+    {
+        "id": "3b1dacbb.3af914",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4C:D0",
+        "topic": "3C:71:BF:03:4C:D0/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 109,
+        "y": 549.9999732971191,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "285cb718.d6d2e8"
+            ]
+        ]
+    },
+    {
+        "id": "2c335566.045b0a",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4C:D8",
+        "topic": "3C:71:BF:03:4C:D8/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 108.99999237060547,
+        "y": 673.0000438690186,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "74c7a2cf.f06fec"
+            ]
+        ]
+    },
+    {
+        "id": "2d24c474.e7479c",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4E:14",
+        "topic": "3C:71:BF:03:4E:14/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 109.99999237060547,
+        "y": 725.0000629425049,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "6eec7042.95f91"
+            ]
+        ]
+    },
+    {
+        "id": "3b9adc75.df00e4",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4E:54",
+        "topic": "3C:71:BF:03:4E:54/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 109,
+        "y": 784.6363983154297,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "e3dd7563.ba8b58"
+            ]
+        ]
+    },
+    {
+        "id": "8c6e2736.13fa98",
+        "type": "function",
+        "z": "38a4b0ae.70237",
+        "name": "objects",
+        "func": "var out;\n\n\nout = \"insert into gasflaschen (seq_no,device_id, mac,ble,rssi,time) values\"\nout = out + \"(\"+7+\",\"+7+\",'\"+msg.topic.substr(0,17)+\"','\"+msg.payload+\"',0,Now());\"\n\nmsg.topic = out;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 583.1193084716797,
+        "y": 367.6476516723633,
+        "wires": [
+            [
+                "768ffb83.802634"
+            ]
+        ]
+    },
+    {
+        "id": "768ffb83.802634",
+        "type": "mysql",
+        "z": "38a4b0ae.70237",
+        "mydb": "f5fe3427.e9fca8",
+        "name": "FINDME",
+        "x": 779.1335144042969,
+        "y": 367.6533212661743,
+        "wires": [
+            [
+                "5446875d.fa0678"
+            ]
+        ]
+    },
+    {
+        "id": "5446875d.fa0678",
+        "type": "function",
+        "z": "38a4b0ae.70237",
+        "name": "select ",
+        "func": "//msg.topic=\"SELECT 'E147' as loc, substr(mac,1,17) as what,date_format( time,'%D %b %Y %H:%i') as ti FROM findme_prod.gasflaschen;\"\n//msg.topic=\"SELECT 'E147' as loc, substr(mac,1,17) as what,date_format( time,'%D %b %Y %H:%i') as ti FROM findme_prod.gasflaschen;\"\n//msg.topic=\"select upper(MAC) as loc,rssi as version, date_format( time,'%D %b %Y %H:%i:%s') as tim from gasflaschen where seq_no = 7 order by tim desc LIMIT 20;\";\nmsg.topic=\"select upper(MAC) as loc,ble as version, date_format( time,'%D %b %Y %H:%i:%s') as tim from gasflaschen where seq_no = 7 order by time desc LIMIT 20\";\n//msg.topic=\"select UPPER(mac) as wo, UPPER(ble) as object, rssi, date_format( time,'%D %b %Y %H:%i') as ti from  findme_prod.gasflaschen  order by ti desc\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 954.1335220336914,
+        "y": 368.65332412719727,
+        "wires": [
+            [
+                "8dd5eb5e.ab37f8",
+                "97754c3b.367ff"
+            ]
+        ]
+    },
+    {
+        "id": "8dd5eb5e.ab37f8",
+        "type": "mysql",
+        "z": "38a4b0ae.70237",
+        "mydb": "f5fe3427.e9fca8",
+        "name": "FINDME",
+        "x": 1166.1335754394531,
+        "y": 369.65332412719727,
+        "wires": [
+            [
+                "135ee796.887008",
+                "8da7d3a5.c46f9"
+            ]
+        ]
+    },
+    {
+        "id": "135ee796.887008",
+        "type": "ui_template",
+        "z": "38a4b0ae.70237",
+        "group": "fb09418b.b4afa",
+        "name": "Detector Versions@BI",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<div>\n     <form>\n      <span class=\"input-group\">\n          <i class=\"fa fa-search\"></i>\n        <input type=\"text\" class=\"form-control\" placeholder=\"Search\" ng-model=\"search\">\n      </span>      \n  </form>\n  <div class=\"container\" ng-app=\"sortApp\">\n   <table>\n        <thead>\n        <tr style=\"width:100%\">\n            <td>\n          <a href=\"#\">\n            Index\n          </a>\n        </td>\n        <td>\n          <a href=\"#\" ng-click=\"sortType = 'TrackerNode'; sortReverse = !sortReverse\">\n           TrackerNode \n            <span ng-show=\"sortType == 'TrackerNode' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'TrackerNode' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n         <td>\n          <a href=\"#\" width:10% ng-click=\"sortType = 'Version'; sortReverse = !sortReverse\">\n          Version \n            <span ng-show=\"sortType == 'Version' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'Version' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n <td>\n          <a href=\"#\" ng-click=\"sortType = 'Time'; sortReverse = !sortReverse\">\n          Time\n            <span ng-show=\"sortType == 'Time' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'Time' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n          </tr>\n          </thead>\n          <tbody>\n        <tr ng-repeat=\"obj in msg.payload | orderBy:sortType:sortReverse | filter:search track by $index\" style=\"width:200%\" flex>\n                <td><b ng-bind=\"$index+1\"></b></td>\n               <td><input type=\"text\"   ng-model=\"obj.loc\"></td>\n                <td><input type=\"text\" ng-model=\"obj.version\" ></td>              \n                <td><input type=\"text\" ng-model=\"obj.tim\"></td>\n         </tr>\n        </tbody>\n      </table>\n\n</div>\n</div>\n</body></html>\n",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 1420,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4d3552b.3f6c18",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4E:48",
+        "topic": "3C:71:BF:03:4E:48/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "c0523928.b38df8"
+            ]
+        ]
+    },
+    {
+        "id": "b5b1ee8b.8b9e4",
+        "type": "mqtt in",
+        "z": "38a4b0ae.70237",
+        "name": "3C:71:BF:03:4D:78",
+        "topic": "3C:71:BF:03:4D:78/version",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 105.98579406738281,
+        "y": 854.9943161010742,
+        "wires": [
+            [
+                "8c6e2736.13fa98",
+                "c2498081.fb5a7"
+            ]
+        ]
+    },
+    {
+        "id": "31d547b3.c3bb08",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 587.7284851074219,
+        "y": 619.9407806396484,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "63aa1ba3.767a34",
+        "type": "e-mail",
+        "z": "38a4b0ae.70237",
+        "server": "mail.gmx.net",
+        "port": "465",
+        "secure": true,
+        "name": "martin.locher@gmx.de",
+        "dname": "martin.locher@gmx.de",
+        "x": 1340,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "56169aef.1715c4",
+        "type": "function",
+        "z": "38a4b0ae.70237",
+        "name": "BiberTracker Node out of Service",
+        "func": "var out;\n\n\nout = { payload:\"Node not seen any more \"+msg.topic.substr(0,17)};\n\nreturn out;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 955.8713607788086,
+        "y": 951.2135124206543,
+        "wires": [
+            [
+                "7dabd2e5.e6ba7c",
+                "63aa1ba3.767a34",
+                "2d8c27a0.27e2d8",
+                "61ab91fe.98aff",
+                "88a42077.6be56"
+            ]
+        ]
+    },
+    {
+        "id": "7dabd2e5.e6ba7c",
+        "type": "debug",
+        "z": "38a4b0ae.70237",
+        "name": "OUTAGE",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1222.2255897521973,
+        "y": 738.7840156555176,
+        "wires": []
+    },
+    {
+        "id": "d07af93b.adc0a8",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 585.7345504760742,
+        "y": 671.4367027282715,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "5272bdb4.d64154",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 584.3059692382812,
+        "y": 725.7223770618439,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "ef27307a.ef866",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 584.3060302734375,
+        "y": 772.8652954101562,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "52f8c07c.77f2a",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 582.3120956420898,
+        "y": 824.3612174987793,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "379aab15.527124",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 580.8835144042969,
+        "y": 878.6468918323517,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "63f1480d.c23268",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 581.4488525390625,
+        "y": 925.722412109375,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "c0523928.b38df8",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 579.4549179077148,
+        "y": 977.218334197998,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "285cb718.d6d2e8",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 578.0263366699219,
+        "y": 1031.5040085315704,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "3b2987a7.13d198",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 578.0263977050781,
+        "y": 1078.6469268798828,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "74c7a2cf.f06fec",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 576.0324630737305,
+        "y": 1130.1428489685059,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "6eec7042.95f91",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 574.6038360595703,
+        "y": 1174.42844247818,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "e3dd7563.ba8b58",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "12",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 577.1631469726562,
+        "y": 1234.2938232421875,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "f09c7e5f.8e5d3",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 578.5917053222656,
+        "y": 1234.2937488555908,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2498081.fb5a7",
+        "type": "trigger",
+        "z": "38a4b0ae.70237",
+        "op1": "",
+        "op2": "Node out of Service",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "14",
+        "extend": true,
+        "units": "min",
+        "reset": "",
+        "name": "Node out of SERVICE",
+        "x": 575.7346267700195,
+        "y": 1290.9172058105469,
+        "wires": [
+            [
+                "56169aef.1715c4"
+            ]
+        ]
+    },
+    {
+        "id": "2d8c27a0.27e2d8",
+        "type": "e-mail",
+        "z": "38a4b0ae.70237",
+        "server": "mail.gmx.net",
+        "port": "465",
+        "secure": true,
+        "name": "martin.locher@boehringer-ingelheim.com",
+        "dname": "martin.locher@boehringer-ingelheim.com",
+        "x": 1400,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "61ab91fe.98aff",
+        "type": "e-mail",
+        "z": "38a4b0ae.70237",
+        "server": "mail.gmx.net",
+        "port": "465",
+        "secure": true,
+        "name": "heiko.schleinkofer@boehringer-ingelheim.com",
+        "dname": "heiko.schleinkofer@boehringer-ingelheim.com",
+        "x": 1420,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "88a42077.6be56",
+        "type": "e-mail",
+        "z": "38a4b0ae.70237",
+        "server": "mail.gmx.net",
+        "port": "465",
+        "secure": true,
+        "name": "ismael.carmona@boehringer-ingelheim.com",
+        "dname": "ismael.carmona@boehringer-ingelheim.com",
+        "x": 1410,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8da7d3a5.c46f9",
+        "type": "debug",
+        "z": "38a4b0ae.70237",
+        "name": "for form ",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1360,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "97754c3b.367ff",
+        "type": "debug",
+        "z": "38a4b0ae.70237",
+        "name": "nach select",
+        "active": true,
+        "console": "false",
+        "complete": "true",
+        "x": 1150,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "660143c2.a5d9fc",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "martin-locher.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": ""
+    },
+    {
+        "id": "f5fe3427.e9fca8",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "martin-locher.com",
+        "port": "3306",
+        "db": "findme_prod",
+        "tz": ""
+    },
+    {
+        "id": "fb09418b.b4afa",
+        "type": "ui_group",
+        "z": "",
+        "name": "BI",
+        "tab": "f99639c2.f05368",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "f99639c2.f05368",
+        "type": "ui_tab",
+        "z": "",
+        "name": "NodeVersions @ BI",
+        "icon": "dashboard",
+        "order": 2
+    }
+]

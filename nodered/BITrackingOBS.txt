@@ -1,0 +1,370 @@
+[
+    {
+        "id": "57cc4247.d5abdc",
+        "type": "tab",
+        "label": "Tracking OBJS",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "30f481cc.96c56e",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "30:AE:A4:FF:52:38",
+        "topic": "30:AE:A4:FF:52:38/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "957bc7e4.f0f428",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "D8:A0:1D:62:91:5C",
+        "topic": "D8:A0:1D:62:91:5C/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 80,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "8fe87455.3ed8b8",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4C:EC",
+        "topic": "3C:71:BF:03:4C:EC/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "cfeb51ab.21f39",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4D:A4",
+        "topic": "3C:71:BF:03:4D:A4/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "c089d301.5523c",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4D:80",
+        "topic": "3C:71:BF:03:4D:80/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "24448c57.27ce64",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4D:5C",
+        "topic": "3C:71:BF:03:4D:5C/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 380,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "7ecbed34.8eb424",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4E:44",
+        "topic": "3C:71:BF:03:4E:44/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "6646367a.2cae48",
+        "type": "debug",
+        "z": "57cc4247.d5abdc",
+        "name": "Node SQL",
+        "active": true,
+        "console": "false",
+        "complete": "payload",
+        "x": 1138.0140838623047,
+        "y": 519.005334854126,
+        "wires": []
+    },
+    {
+        "id": "8d426f2c.122e",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4D:94",
+        "topic": "3C:71:BF:03:4D:94/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 660,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "342a5fbf.28bc3",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4C:D0",
+        "topic": "3C:71:BF:03:4C:D0/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "71262791.2b7148",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4C:D8",
+        "topic": "3C:71:BF:03:4C:D8/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 128.99999237060547,
+        "y": 713.0000438690186,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "8a798b9f.6128c8",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4E:14",
+        "topic": "3C:71:BF:03:4E:14/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 129.99999237060547,
+        "y": 765.0000629425049,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "a8151aa6.ed8128",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4E:54",
+        "topic": "3C:71:BF:03:4E:54/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 129,
+        "y": 824.6363983154297,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "1a99f072.d046b",
+        "type": "function",
+        "z": "57cc4247.d5abdc",
+        "name": "objects",
+        "func": "var out;\n\n\nout = \"insert into gasflaschen (seq_no,device_id, mac,ble,rssi,time) values\"\nout = out + \"(\"+36+\",\"+36+\",'\"+msg.topic.substr(0,17)+\"','\"+msg.payload.substr(0,17)+\"',\"+msg.payload.substr(18,3)+\",Now());\"\n\nmsg.topic = out;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 603.1193084716797,
+        "y": 407.6476516723633,
+        "wires": [
+            [
+                "3668930a.91d89c"
+            ]
+        ]
+    },
+    {
+        "id": "3668930a.91d89c",
+        "type": "mysql",
+        "z": "57cc4247.d5abdc",
+        "mydb": "f5fe3427.e9fca8",
+        "name": "FINDME",
+        "x": 799.1335144042969,
+        "y": 407.6533212661743,
+        "wires": [
+            [
+                "5f6034e7.c3239c"
+            ]
+        ]
+    },
+    {
+        "id": "5f6034e7.c3239c",
+        "type": "function",
+        "z": "57cc4247.d5abdc",
+        "name": "select ",
+        "func": "//msg.topic=\"SELECT 'E147' as loc, substr(mac,1,17) as what,date_format( time,'%D %b %Y %H:%i') as ti FROM findme_prod.gasflaschen;\"\n//msg.topic=\"SELECT 'E147' as loc, substr(mac,1,17) as what,date_format( time,'%D %b %Y %H:%i') as ti FROM findme_prod.gasflaschen;\"\n//msg.topic=\"select upper(MAC) as loc,rssi as version, date_format( time,'%D %b %Y %H:%i:%s') as tim from gasflaschen where seq_no = 7 order by tim desc LIMIT 20;\";\nmsg.topic= \"select case upper(MAC) \"+\n        \"when '3C:71:BF:03:4D:80' \"+  \n        \"then 'BC H84 01.033' \"+  \n        \"when '3C:71:BF:03:4D:5C' \"+ \n        \"then 'BC H84 02.071' \"+\n        \"when '3C:71:BF:03:4D:78' \"+  \n        \"then 'BC H84 U1.072' \"+  \n        \"when '3C:71:BF:03:4D:A4' \"+ \n        \"then 'BC H84 U1.903' \"+ \n        \"when '3C:71:BF:03:4C:EC' \"+\n        \"then 'BC H84 U1.015.01' \"+ \n        \"else 'ING Prod 10' \"+\n    \"END \"+\n    \"as loc, \"+\n\t\"case upper(ble) \"+ \n        \"when '7C:2F:80:B9:66:BD' \"+ \n        \"then 'Pumpe 14' \"+\n        \"when '7C:2F:80:EA:FB:2B' \"+  \n\t\t\"then 'Keg NaOH 15%' \"+\n        \"when '7C:2F:80:EA:FB:2B' \"+\n        \"then 'Container Säure 2' \"+ \n        \"when '7C:2F:80:EA:F3:7E' \"+ \n        \"then 'Skid 247' \"+\n        \"when '7C:2F:80:EA:F3:13' \"+ \n        \"then 'Skid 47' \"+\n         \"when '7C:2F:80:EA:F2:FA' \"+ \n        \"then 'Säure SO4 40%' \"+\n        \"when '7C:2F:80:EA:F3:50' \"+ \n        \"then 'Keg NaOH 20%' \"+ \n        \"ELSE upper(ble) \"+\n    \"END \"+ \n    \"as ble, \"+\n\t\"abs(rssi)/10 as rssi, \"+  \n    \"date_format( time,'%D %b %Y %H:%i:%s') as tim \"+\n    \"from gasflaschen \"+ \n    \"where \"+ \n        \"seq_no=36 \"+\n    \"order by time desc \"+\n    \"LIMIT 100;\"\n/*msg.topic=\"select \"+ \n    \"case upper(MAC) \"+ \n        \"when '3C:71:BF:03:4D:80' \"+ \n        \"then 'H84 01.033' \"+  \n        \"when '3C:71:BF:03:4D:5C' \"+ \n        \"then 'H84 02.071' \"+ \n        \"when '3C:71:BF:03:4D:78' \"+ \n        \"then 'H84 U1.072' \"+  \n        \"when '3C:71:BF:03:4D:A4' \"+  \n        \"then 'H84 U1.903' \"+ \n        \"when '3C:71:BF:03:4C:EC' \"+ \n        \"then 'H84 U1.015.01' \"+ \n        \"else 'Ing Prod 10' \"+  \n    \"END \"+\n    \"as loc, \"+ \n    \"case upper(ble) \"+ \n        \"when '7C:2F:80:B9:66:BD' \"+ \n        \"then 'Pumpe 14' \"+ \n        \"when '7C:2F:80:EA:FB:2B' \"+  \n        \"then 'Container Lauge 5' \"+  \n        \"when '7C:2F:80:EA:FB:2B' \"+  \n        \"then 'Container Säure 2' \"+ \n        \"when '7C:2F:80:EA:F3:7E' \"+  \n        \"then 'Skid 247' \"+ \n        \"ELSE 'Not Known:' \"+ upper(ble)+ \n    \"END \"+\n    \"as ble, \"+ \n    \"rssi, \"+ \n    \"date_format( time,'%D %b %Y %H:%i:%s') as tim \"+  \n    \"from gasflaschen \"+ \n    \"where \"+ \n        \"seq_no=36 \"+ \n    \"order by tim desc \"+  \n    \"LIMIT 100;\" */\n//msg.topic=\"select UPPER(mac) as wo, UPPER(ble) as object, rssi, date_format( time,'%D %b %Y %H:%i') as ti from  findme_prod.gasflaschen  order by ti desc\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 970,
+        "y": 380,
+        "wires": [
+            [
+                "8c9d2bcb.9ed438",
+                "6646367a.2cae48"
+            ]
+        ]
+    },
+    {
+        "id": "8c9d2bcb.9ed438",
+        "type": "mysql",
+        "z": "57cc4247.d5abdc",
+        "mydb": "f5fe3427.e9fca8",
+        "name": "FINDME",
+        "x": 1186.1335754394531,
+        "y": 409.65332412719727,
+        "wires": [
+            [
+                "8b0556b2.653b28"
+            ]
+        ]
+    },
+    {
+        "id": "8b0556b2.653b28",
+        "type": "ui_template",
+        "z": "57cc4247.d5abdc",
+        "group": "6efc9321.96f99c",
+        "name": "Detector Objects @BI",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "format": "<div>\n     <form>\n      <span class=\"input-group\">\n          <i class=\"fa fa-search\"></i>\n        <input type=\"text\" class=\"form-control\" placeholder=\"Search\" ng-model=\"search\">\n      </span>      \n  </form>\n  <div class=\"container\" ng-app=\"sortApp\">\n   <table>\n        <thead>\n        <tr style=\"width:100%\">\n            <td>\n          <a href=\"#\">\n            Index\n          </a>\n        </td>\n        <td>\n          <a href=\"#\" ng-click=\"sortType = 'TrackerNode'; sortReverse = !sortReverse\">\n           Raum \n            <span ng-show=\"sortType == 'TrackerNode' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'TrackerNode' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n         <td>\n          <a href=\"#\" width:10% ng-click=\"sortType = 'Objekt'; sortReverse = !sortReverse\">\n          Objekt \n            <span ng-show=\"sortType == 'Objekt' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'Objekt' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n        <td>\n          <a href=\"#\" width:10% ng-click=\"sortType = 'Entfernung'; sortReverse = !sortReverse\">\n          Entf. Empfänger [m]\n            <span ng-show=\"sortType == 'Entfernung' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'Entfernung' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n <td>\n          <a href=\"#\" ng-click=\"sortType = 'Time'; sortReverse = !sortReverse\">\n          Zu letzt gesehen\n            <span ng-show=\"sortType == 'Time' && !sortReverse\" class=\"fa fa-caret-down\"></span>\n            <span ng-show=\"sortType == 'Time' && sortReverse\" class=\"fa fa-caret-up\"></span>\n          </a>\n        </td>\n          </tr>\n          </thead>\n          <tbody>\n        <tr ng-repeat=\"obj in msg.payload | orderBy:sortType:sortReverse | filter:search track by $index\" style=\"width:200%\" flex>\n                <td><b ng-bind=\"$index+1\"></b></td>\n               <td><input type=\"text\" ng-model=\"obj.loc\"></td>\n                <td><input type=\"text\" ng-model=\"obj.ble\" ></td>              \n                <td><input type=\"text\" ng-model=\"obj.rssi\" ></td>              \n                <td><input type=\"text\" ng-model=\"obj.tim\"></td>\n         </tr>\n        </tbody>\n      </table>\n\n</div>\n</div>\n</body></html>\n",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 1414.1335372924805,
+        "y": 409.65331840515137,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d92ae9bd.8c0368",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4E:48",
+        "topic": "3C:71:BF:03:4E:48/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 130,
+        "y": 500,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "c9793736.e3c8f8",
+        "type": "mqtt in",
+        "z": "57cc4247.d5abdc",
+        "name": "3C:71:BF:03:4D:78",
+        "topic": "3C:71:BF:03:4D:78/ble",
+        "qos": "2",
+        "broker": "660143c2.a5d9fc",
+        "x": 125.98579406738281,
+        "y": 894.9943161010742,
+        "wires": [
+            [
+                "1a99f072.d046b"
+            ]
+        ]
+    },
+    {
+        "id": "660143c2.a5d9fc",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "martin-locher.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": ""
+    },
+    {
+        "id": "f5fe3427.e9fca8",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "martin-locher.com",
+        "port": "3306",
+        "db": "findme_prod",
+        "tz": ""
+    },
+    {
+        "id": "6efc9321.96f99c",
+        "type": "ui_group",
+        "z": "",
+        "name": "BI",
+        "tab": "571c55a4.f9ad7c",
+        "order": 1,
+        "disp": true,
+        "width": "12"
+    },
+    {
+        "id": "571c55a4.f9ad7c",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Objects @ BI",
+        "icon": "dashboard",
+        "order": 1
+    }
+]
